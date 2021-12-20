@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #24272e;
+}
+header {
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+
+header > h1 { 
+    color: steelblue;
+    text-align: center;
+    font-family: fantasy
+}
+.scoreboard {
+    margin: 20px auto;
+    border: 3px solid lightskyblue;
+    border-radius: 5px;
+    text-align: center;
+    width: 250px;
+    height: 100px;
+    color: whitesmoke;
+    font-size: 28px;
+    padding: 10px 15px;
+    font-family: fantasy;
+    position: relative;
+
+}
+
+.badge {
+    background: steelblue;
+    font-size: 20px;
+    padding: 2px 5px;
+
+}
+
+#player-label{
+    position: absolute;
+    top: 33px;
+    left: -30px;
+
+}
+
+#comp-label{
+    position: absolute;
+    top: 33px;
+    right: -50px;
+}
+
+
+.result {
+    font-size: 36px;
+    color:whitesmoke;
+}
+ .result > p{
+     text-align: center;
+     font-weight: bold;
+     font-family: fantasy;
+ }
+
+ .choices{
+    margin: 50px 10px;
+    text-align: center;
+ }
+ .choice { 
+     display: inline-block;
+     border: 10px solid whitesmoke;
+     border-radius: 50%;
+     padding: 10px;
+     margin: 10px;
+     transition: all 0.25s ease;
+}
+
+ img {
+     height: 250px;
+     width: auto;
+     
+ }
+
+ .choice:hover {
+     cursor: pointer;
+     background: lightskyblue;
+ }
+
+ #action-message{
+     text-align: center;
+     color: whitesmoke;
+     font-family: fantasy;
+     font-size: 36px;
+ }
+
+ #reset{
+     position: relative;
+ }
+ #newgame{
+    border: 4px whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: fantasy;
+    background: steelblue;
+    margin-top: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+
+ }
+ 
+ #newgame:hover{
+     cursor: pointer;
+     background: lightskyblue;
+ }
+
+ .greenGlow{
+    border: 10px solid #4dcc7d ;
+    box-shadow: 0 0 15px #31b43a;
+}
+
+.redGlow{
+    border: 10px solid #fc121b ;
+    box-shadow: 0 0 15px #d01115;
+}
+
+.blueGlow{
+    border: 10px solid steelblue ;
+    box-shadow: 0 0 15px lightskyblue;
+}
